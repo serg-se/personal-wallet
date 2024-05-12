@@ -22,13 +22,13 @@
 **1. С помощью Poetry:**
 ```
 > poetry install
-> poetry run personal_wallet --help
+> poetry run personal_wallet balance
 ```
 **2. С помощью Docker:**
 
 ```
 > docker build . -t personal-wallet
-> docker run -v data:/data personal-wallet --help
+> docker run -v data:/data personal-wallet balance
 ```
 
 ### Команды:
